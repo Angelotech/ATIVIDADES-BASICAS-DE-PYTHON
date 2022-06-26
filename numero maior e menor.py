@@ -1,0 +1,7 @@
+print('digite tres numeros para saber qual é o maior')
+x = int(input('digite o primeiro numero:'))
+y = int(input('digite o segundo numero:'))
+z = int(input('digite o terceiro numero: '))
+maior = max(x, y, z)
+menor = min(x, y, z)
+print(f'dos numeros que vc digitou o maior foi:{maior} e o menor foi {menor}')
